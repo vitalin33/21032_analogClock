@@ -1,0 +1,318 @@
+body {
+  margin: 0;
+  /* background: #ccc; */
+  background-image: url('https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1347&q=80');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  flex-wrap: wrap;
+  /* height: 100vh; */
+}
+
+.wi{
+
+  width: 80vw;
+  margin: 0 auto;
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+
+
+}
+.wood {
+  width: 480px;
+  height: 480px;
+  /* background:linear-gradient(350deg, rgba(153,107,35,1) 0%, rgba(139,113,42,1) 15%, rgba(255,192,0,1) 31%, rgba(152,115,4,1) 43%, rgba(73,61,27,1) 96%); */
+  background:url('https://images.unsplash.com/photo-1525034687081-c702010cb70d?ixid=MXwxMjA3fDB8MHxzZWFyY2h8Mnx8d29vZHxlbnwwfHwwfA%3D%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=60') no-repeat ;
+  background-size: cover;
+  border-radius: 50%;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 1px 1px 20px 1px #0003;
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+ 
+
+}
+.circle {
+  width: 400px;
+  height: 400px;
+  background: white;
+  border-radius: 50%;
+  margin: 30px;
+  padding: 30px;
+  box-shadow: 1px 1px 20px 1px #0003;
+  position: relative;
+  top: -20px;
+  bottom: 0;
+  left: -20px;
+  right: 0;
+
+
+}
+
+
+.clock_m12{
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  height: 400px;
+  transform:translateX(-15px) ;
+  font-size: 2.2rem;
+  
+}
+
+.clock_m6{
+  position: absolute;
+  top: -10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  height: 400px;
+  transform:translate(-5px ,385px) ;
+  font-size: 2.2rem;
+  
+}
+.clock_m3{
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  height: 400px;
+  transform:translate(190px ,185px) ;
+  font-size: 2.2rem;
+  
+}
+
+.clock_m9{
+  position: absolute;
+  top: 0px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 1px;
+  height: 400px;
+  transform:translate(-205px ,185px) ;
+  font-size: 2.2rem;
+  
+}
+  .clock_k2{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 1px;
+    height: 400px;
+    background-color: rgb(255, 255, 255);
+    transform: rotate(30deg);
+  }
+  .clock_k2::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      width: 2px;
+      height: 10px;
+      border-radius: 2px;
+      background-color: rgb(179, 96, 96);
+    }
+    .clock_k2::after {
+      content: "";
+      position: absolute;
+      bottom: 0;
+      width: 2px;
+      height: 10px;
+      border-radius: 2px;
+      background-color: rgb(179, 96, 96);
+    }
+    .clock_k3{
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      width: 1px;
+      height: 400px;
+      background-color: rgb(255, 255, 255);
+      transform: rotate(60deg);
+    }
+    .clock_k3::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        width: 2px;
+        height: 10px;
+        border-radius: 2px;
+        background-color: rgb(179, 96, 96);
+      }
+      .clock_k3::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        width: 2px;
+        height: 10px;
+        border-radius: 2px;
+        background-color: rgb(179, 96, 96);
+      }
+
+    
+        .clock_k5{
+          position: absolute;
+          top: 0;
+          bottom: 0;
+          left: 0;
+          right: 0;
+          margin: auto;
+          width: 1px;
+          height: 400px;
+          background-color: rgb(255, 255, 255);
+          transform: rotate(120deg);
+        }
+        .clock_k5::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            width: 2px;
+            height: 10px;
+            border-radius: 2px;
+            background-color: rgb(179, 96, 96);
+          }
+          .clock_k5::after {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            width: 2px;
+            height: 10px;
+            border-radius: 2px;
+            background-color: rgb(179, 96, 96);
+          }
+
+          .clock_k6{
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: auto;
+            width: 1px;
+            height: 400px;
+            background-color: rgb(255, 255, 255);
+            transform: rotate(150deg);
+          }
+          .clock_k6::before {
+              content: "";
+              position: absolute;
+              top: 0;
+              width: 2px;
+              height: 10px;
+              border-radius: 2px;
+              background-color: rgb(179, 96, 96);
+            }
+            .clock_k6::after {
+              content: "";
+              position: absolute;
+              bottom: 0;
+              width: 2px;
+              height: 10px;
+              border-radius: 2px;
+              background-color: rgb(179, 96, 96);
+            }
+
+
+    
+.jhour{
+  background-color: #333;
+  width: 15px;
+  height: 26%;
+  position: absolute;
+  top:30%;
+  left: 50%;
+  margin-left: -7px;
+}
+
+.jmin{
+  background-color: #333;
+  width: 8px;
+  height: 46%;
+  position: absolute;
+  top:10%;
+  left: 50%;
+  margin-left: -4px;
+}
+.jsec{
+  background-color: #333;
+  width: 4px;
+  height: 60%;
+  position: absolute;
+  top:0px;
+  left: 50%;
+  margin-left: -1.5px;
+}
+.jsec::before{
+  content: '';
+  background-color: rgb(87, 143, 119);
+   
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 28px;
+  left: 35%;
+  margin-left: -15px;
+  border: 4px solid rgb(109, 72, 2);
+  
+}
+.jsec::after{
+  content: '';
+  /* background-color: rgb(172, 108, 59); */
+   
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  margin-left: -14px;
+  border: 2px double rgb(8, 228, 217);
+  
+}
+
+.zsec{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: js 60s linear infinite;
+  z-index:100 ; 
+}
+
+.zhour{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: jh 43200s linear infinite;
+  z-index: 5;  
+}
+.zmin{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  animation: jm 3600s linear infinite;
+  z-index: 6;  
+}
